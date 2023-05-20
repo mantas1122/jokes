@@ -1,0 +1,5 @@
+dad-jokes-client:
+  url: http://localhost:8081
+  headers:
+    x-rapidapi-key: key
+    x-rapidapi-host: dad-jokes.p.rapidapi.com

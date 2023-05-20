@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "body": [
+    {
+      "_id": "60dd364d7251117d2e7e98bd",
+      "setup": "If Rolex had an app on PC what would be Its file name?",
+      "punchline": "Rol.exeSorry for the trash pun, thought about it while walking in front of rolex",
+      "type": "file",
+      "likes": [],
+      "author": {
+        "name": "unknown",
+        "id": null
+      },
+      "approved": true,
+      "date": 1618108661,
+      "NSFW": false,
+      "shareableLink": "https://dadjokes.io/joke/60dd364d7251117d2e7e98bd"
+    }
+  ]
+}

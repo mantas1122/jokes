@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "body": [
+    {
+      "_id": "5f80ccd641785ba7c7d27b55",
+      "type": "knock-knock",
+      "setup": "Knock knock. \n Who's there? \n A broken pencil. \n A broken pencil who?",
+      "punchline": "Never mind. It's pointless."
+    },
+    {
+      "_id": "5f80ccd641785ba7c7d27b6b",
+      "type": "knock-knock",
+      "setup": "Knock knock. \n Who's there? \n Opportunity.",
+      "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
+    },
+    {
+      "_id": "5f80ccd641785ba7c7d27b56",
+      "type": "knock-knock",
+      "setup": "Knock knock. \n Who's there? \n Cows go. \n Cows go who?",
+      "punchline": "No, cows go moo."
+    },
+    {
+      "_id": "5f80ccd641785ba7c7d27b57",
+      "type": "knock-knock",
+      "setup": "Knock knock. \n Who's there? \n Little old lady. \n Little old lady who?",
+      "punchline": "I didn't know you could yodel!"
+    },
+    {
+      "_id": "5f80ccd641785ba7c7d27b86",
+      "type": "knock-knock",
+      "setup": "Knock knock. \n Who's there? \n Hatch. \n Hatch who?",
+      "punchline": "Bless you!"
+    }
+  ]
+}
