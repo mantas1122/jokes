@@ -54,7 +54,7 @@ class JokeController(private val jokeService: JokeService) {
          performance and scalability.
 
         TODO: Async Processing: For handling a large number of requests simultaneously. It might make sense to use
-         Spring's @Async annotation or Kotlin coroutines to make some methods asynchronous.
+         Spring's @Async / Spring WebFlux / Kotlin coroutines
     */
 
     @Operation(summary = "Search jokes by term")
