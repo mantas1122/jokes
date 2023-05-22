@@ -53,8 +53,7 @@ class JokeController(private val jokeService: JokeService) {
         TODO: pagination to ensure that data can be retrieved in manageable chunks. This is important for both
          performance and scalability.
 
-        TODO: Async Processing: For handling a large number of requests simultaneously. It might make sense to use
-         Spring's @Async / Spring WebFlux / Kotlin coroutines
+        TODO: Add Spring WebFlux and reactive programming, it can potentially improve performance in certain scenarios.
     */
 
     @Operation(summary = "Search jokes by term")
