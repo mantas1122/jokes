@@ -9,8 +9,7 @@
 Set your API key
 ````
 dad-jokes-client:
-  headers:
-    x-rapidapi-key: <your key>
+  key: <your key>
 ````
 Run
 
