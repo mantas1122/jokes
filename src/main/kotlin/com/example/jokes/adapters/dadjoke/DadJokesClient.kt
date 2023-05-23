@@ -18,11 +18,8 @@ class DadJokesClient {
     @Value("\${dad-jokes-client.url}")
     private lateinit var baseUrl: String
 
-    @Value("\${dad-jokes-client.headers.x-rapidapi-key}")
+    @Value("\${dad-jokes-client.key}")
     private lateinit var apiKey: String
-
-    @Value("\${dad-jokes-client.headers.x-rapidapi-host}")
-    private lateinit var apiHost: String
 
     private val client = OkHttpClient()
 
@@ -72,7 +69,7 @@ class DadJokesClient {
             .url("$baseUrl/$path")
             .get()
             .addHeader("X-RapidAPI-Key", apiKey)
-            .addHeader("X-RapidAPI-Host", apiHost)
+            .addHeader("X-RapidAPI-Host", "dad-jokes.p.rapidapi.com")
             .build()
         val response = client.newCall(request).execute()
         validateResponse(response)

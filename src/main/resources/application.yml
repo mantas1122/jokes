@@ -1,5 +1,3 @@
 dad-jokes-client:
   url: https://dad-jokes.p.rapidapi.com
-  headers:
-    x-rapidapi-key: your-key
-    x-rapidapi-host: dad-jokes.p.rapidapi.com
+  key: your-key
