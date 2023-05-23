@@ -8,7 +8,7 @@
 ### Run App
 Set your API key
 ````
-jokeservice:
+dad-jokes-client:
   headers:
     x-rapidapi-key: <your key>
 ````
